@@ -3,10 +3,10 @@
 	define('LBASE_DIR',dirname(__FILE__));
 	//Global defines and utility functions
 	// version string 
-	define('APP_VERSION', 'v6.4.21');
+	define('APP_VERSION', 'v1');
 
 	// name of this application
-	define('APP_NAME', 'RPi Cam Control');
+	define('APP_NAME', 'Night Light Cam Control');
 
 	// the host running the application
 	define('HOST_NAME', php_uname('n'));
@@ -15,7 +15,7 @@
 	define('ROOT_PHP', 'index.php');
 
 	// name of this camera
-	define('CAM_NAME', 'mycam');
+	define('CAM_NAME', 'nightlightcam');
 
 	// unique camera string build from application name, camera name, host name
 	define('CAM_STRING', APP_NAME . " " . APP_VERSION . ": " . CAM_NAME . '@' . HOST_NAME);
